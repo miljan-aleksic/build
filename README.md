@@ -1,6 +1,6 @@
 # Build Utils
 
-> Common build utils relying on latest node supported features such as async/await
+> Common build utils relying on node supported ES6 features
 
 ## License
 
