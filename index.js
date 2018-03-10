@@ -1,6 +1,6 @@
 /* eslint-disable */
 require = require('@std/esm')(module, {
-  esm: 'js',
+  mode: 'js',
   cjs: true
 })
 
