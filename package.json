@@ -10,7 +10,6 @@
     "lint": "eslint lib/ --ignore-pattern node_modules/"
   },
   "devDependencies": {
-    "@std/esm": "^0.25.2",
     "chalk": "^2.3.2",
     "eslint": "^4.18.2",
     "eslint-config-standard": "^11.0.0",
@@ -24,6 +23,7 @@
     "cpy": "^6.0.0",
     "del": "^3.0.0",
     "download": "^6.2.5",
+    "esm": "^3.0.34",
     "globby": "^8.0.1",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",

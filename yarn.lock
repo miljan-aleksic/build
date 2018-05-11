@@ -9,10 +9,6 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@std/esm@^0.25.2":
-  version "0.25.2"
-  resolved "https://registry.yarnpkg.com/@std/esm/-/esm-0.25.2.tgz#b71e1545764f96134935fd1cb5f3785e0cb19d15"
-
 acorn-jsx@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-3.0.1.tgz#afdf9488fb1ecefc8348f6fb22f464e32a58b36b"
@@ -810,6 +806,10 @@ eslint@^4.18.2:
     strip-json-comments "~2.0.1"
     table "4.0.2"
     text-table "~0.2.0"
+
+esm@^3.0.34:
+  version "3.0.34"
+  resolved "https://registry.yarnpkg.com/esm/-/esm-3.0.34.tgz#f86afa35c83a0f535da01d15e625e45794ebddc8"
 
 espree@^3.5.2:
   version "3.5.2"
