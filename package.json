@@ -7,32 +7,34 @@
   "main": "index.js",
   "module": "lib/index.js",
   "scripts": {
-    "lint": "eslint lib/ --ignore-pattern node_modules/"
+    "lint": "eslint lib/",
+    "test": "jest"
   },
   "devDependencies": {
-    "chalk": "^2.3.2",
-    "eslint": "^4.18.2",
+    "chalk": "^2.4.1",
+    "eslint": "^5.0.1",
     "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^23.3.0"
   },
   "dependencies": {
-    "archiver": "^2.1.1",
-    "cpy": "^6.0.0",
+    "adm-zip": "^0.4.11",
+    "cpy": "^7.0.1",
     "del": "^3.0.0",
-    "download": "^6.2.5",
-    "esm": "^3.0.34",
+    "download": "^7.0.0",
+    "esm": "^3.0.62",
     "globby": "^8.0.1",
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
-    "ora": "^2.0.0",
+    "ora": "^2.1.0",
     "recursive-copy": "^2.0.9"
   },
   "optionalDependencies": {
     "clean-css": "^4.1.11",
-    "less": "^3.0.1",
-    "uglify-js": "^3.3.14"
+    "less": "^3.0.4",
+    "uglify-js": "^3.4.3"
   }
 }
