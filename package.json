@@ -1,6 +1,6 @@
 {
   "name": "@miljan/build",
-  "version": "0.4.4",
+  "version": "0.5.0",
   "description": "Common build utils",
   "author": "Miljan Aleksic",
   "license": "MIT",
